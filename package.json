@@ -12,7 +12,9 @@
   "keywords": [],
   "author": "Filip Nowakowski <filip.nowakowski2000@outlook.com>",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "firebase-admin": "^8.9.2"
+  },
   "devDependencies": {
     "@types/node": "^13.7.7",
     "@typescript-eslint/eslint-plugin": "^2.22.0",

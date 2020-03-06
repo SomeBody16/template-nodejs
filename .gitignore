@@ -3,6 +3,7 @@
 ### Example user template
 
 build
+src/config/firebase-adminsdk.json
 
 # IntelliJ project files
 .idea
