@@ -10,11 +10,7 @@ export default class App {
             credential: firebase.credential.cert(serviceAccount as firebase.ServiceAccount),
             databaseURL: config.firebase.databaseURL,
             storageBucket: config.firebase.storageBucket
-        }, serviceAccount.project_id);
-        console.info(`Firebase project '${defaultApp.name}' initialized.`);
-    }
-
-    async main(): Promise<number> {
-        return 0;
+        });
+        console.info(`Firebase project '${serviceAccount.project_id}' initialized.`);
     }
 }
